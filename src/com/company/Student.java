@@ -65,7 +65,7 @@ public class Student
                 ", name='" + name + '\'' +
                 ", stream='" + stream + '\'' +
                 ", address='" + address + '\'' +
-                ", room=" + room +
+                ", room=" + room.getRno() +
                 '}';
     }
 }
